@@ -96,7 +96,6 @@ function init() {
 
 let state = "idle";
 function handleKeyPress(e) {
-  console.log("keydown");
   if (state === "idle") {
     actions[1].enabled = true;
     actions[0].crossFadeTo(actions[1], 0.75);
